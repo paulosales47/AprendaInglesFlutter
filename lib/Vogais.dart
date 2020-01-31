@@ -8,6 +8,10 @@ class Vogais extends StatefulWidget {
 class _VogaisState extends State<Vogais> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return GridView.count(
+      crossAxisCount: 2,
+      children: <Widget>[
+      ],
+    );
   }
 }
